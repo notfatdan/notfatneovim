@@ -34,6 +34,8 @@ return {
             "--completion-style=detailed",
             "--function-arg-placeholders",
             "--fallback-style=llvm",
+            "--pch-storage=memory",
+            "--compile-commands-dir=build",
           },
           init_options = {
             usePlaceholders = true,
